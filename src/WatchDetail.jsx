@@ -16,6 +16,11 @@ const WATCHES = {
       { type: 'image', src: 'https://images.unsplash.com/photo-1629380321590-3b3f75d66dec?ixid=M3w3OTkxMTl8MHwxfHNlYXJjaHwxfHxjZXJhbWljJTIwcG90dGVyeSUyMGhhbmRtYWRlfGVufDB8MHx8fDE3NjM2MjQzMTR8MA&ixlib=rb-4.1.0&w=1600&auto=format&fit=crop&q=80' },
       { type: 'image', src: 'https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=1860&auto=format&fit=crop' },
       { type: 'video', src: 'https://cdn.coverr.co/videos/coverr-water-surface-6085/1080p.mp4' },
+      // Added more high-quality images for richer gallery
+      { type: 'image', src: 'https://images.unsplash.com/photo-1629380321590-3b3f75d66dec?ixid=M3w3OTkxMTl8MHwxfHNlYXJjaHwxfHxjZXJhbWljJTIwcG90dGVyeSUyMGhhbmRtYWRlfGVufDB8MHx8fDE3NjM2MjQzMTR8MA&ixlib=rb-4.1.0&w=1600&auto=format&fit=crop&q=80' },
+      { type: 'image', src: 'https://images.unsplash.com/photo-1542051841857-5f90071e7989?q=80&w=1860&auto=format&fit=crop' },
+      { type: 'image', src: 'https://images.unsplash.com/photo-1629380321590-3b3f75d66dec?ixid=M3w3OTkxMTl8MHwxfHNlYXJjaHwxfHxjZXJhbWljJTIwcG90dGVyeSUyMGhhbmRtYWRlfGVufDB8MHx8fDE3NjM2MjQzMTR8MA&ixlib=rb-4.1.0&w=1600&auto=format&fit=crop&q=80' },
+      { type: 'image', src: 'https://images.unsplash.com/photo-1516570161787-2fd917215a3d?q=80&w=1860&auto=format&fit=crop' },
     ],
     specs: [
       ['Case', 'Oystersteel, 41 mm'],
@@ -33,6 +38,10 @@ const WATCHES = {
       { type: 'video', src: 'https://cdn.coverr.co/videos/coverr-abstract-luxury-1731/1080p.mp4' },
       { type: 'image', src: 'https://images.unsplash.com/photo-1475189778702-5ec9941484ae?q=80&w=1860&auto=format&fit=crop' },
       { type: 'image', src: 'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=1860&auto=format&fit=crop' },
+      // Extra imagery for more allure
+      { type: 'image', src: 'https://images.unsplash.com/photo-1629380321590-3b3f75d66dec?ixid=M3w3OTkxMTl8MHwxfHNlYXJjaHwxfHxjZXJhbWljJTIwcG90dGVyeSUyMGhhbmRtYWRlfGVufDB8MHx8fDE3NjM2MjQzMTR8MA&ixlib=rb-4.1.0&w=1600&auto=format&fit=crop&q=80' },
+      { type: 'image', src: 'https://images.unsplash.com/photo-1629380321590-3b3f75d66dec?ixid=M3w3OTkxMTl8MHwxfHNlYXJjaHwxfHxjZXJhbWljJTIwcG90dGVyeSUyMGhhbmRtYWRlfGVufDB8MHx8fDE3NjM2MjQzMTR8MA&ixlib=rb-4.1.0&w=1600&auto=format&fit=crop&q=80' },
+      { type: 'image', src: 'https://images.unsplash.com/photo-1524805444758-089113d48a6d?q=80&w=1860&auto=format&fit=crop' },
     ],
     specs: [
       ['Case', '18 ct Everose gold, 40 mm'],
@@ -50,6 +59,10 @@ const WATCHES = {
       { type: 'video', src: 'https://cdn.coverr.co/videos/coverr-luxury-abstraction-6478/1080p.mp4' },
       { type: 'image', src: 'https://images.unsplash.com/photo-1490367532201-b9bc1dc483f6?q=80&w=1860&auto=format&fit=crop' },
       { type: 'image', src: 'https://images.unsplash.com/photo-1491553895911-0055eca6402d?q=80&w=1860&auto=format&fit=crop' },
+      // More striking angles and lifestyle shots
+      { type: 'image', src: 'https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=1860&auto=format&fit=crop' },
+      { type: 'image', src: 'https://images.unsplash.com/photo-1546868871-7041f2a55e12?q=80&w=1860&auto=format&fit=crop' },
+      { type: 'image', src: 'https://images.unsplash.com/photo-1520975916090-3105956dac38?q=80&w=1860&auto=format&fit=crop' },
     ],
     specs: [
       ['Case', 'Oystersteel and Everose gold, 40 mm'],
