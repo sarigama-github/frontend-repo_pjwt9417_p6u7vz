@@ -1,25 +1,30 @@
 import { motion } from 'framer-motion'
+import { Link } from 'react-router-dom'
 
 const watches = [
   {
+    slug: 'submariner',
     name: 'Submariner Date',
     desc: 'Cerachrom bezel, Oystersteel, waterproof to 300m',
     price: '$12,600',
     accent: 'from-emerald-400/20 to-emerald-300/10',
   },
   {
+    slug: 'daydate',
     name: 'Day-Date 40',
     desc: '18 ct Everose gold, fluted bezel, President bracelet',
     price: '$41,500',
     accent: 'from-amber-400/20 to-rose-300/10',
   },
   {
+    slug: 'gmtmaster',
     name: 'GMT-Master II',
     desc: 'Oystersteel and Everose gold, bidirectional bezel',
     price: '$15,250',
     accent: 'from-cyan-400/20 to-indigo-300/10',
   },
   {
+    slug: 'submariner',
     name: 'Cosmograph Daytona',
     desc: 'Oysterflex bracelet, black cerachrom tachymetric scale',
     price: '$17,900',
@@ -56,7 +61,7 @@ export default function Collections() {
                 <p className="text-white/70 text-sm mt-1">{w.desc}</p>
                 <div className="mt-4 flex items-center justify-between">
                   <span className="text-white/90 font-medium">{w.price}</span>
-                  <a href="#" className="text-emerald-300 hover:text-emerald-200 transition-colors text-sm">Explore</a>
+                  <Link to={`/watch/${w.slug}`} className="text-emerald-300 hover:text-emerald-200 transition-colors text-sm">Explore</Link>
                 </div>
               </div>
             </motion.div>
