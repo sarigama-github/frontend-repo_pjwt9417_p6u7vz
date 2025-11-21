@@ -11,12 +11,36 @@ const watches = [
     image: 'https://images.unsplash.com/photo-1523170335258-f5ed11844a49?q=80&w=1600&auto=format&fit=crop',
   },
   {
+    slug: 'submariner-nodate',
+    name: 'Submariner',
+    desc: 'No‑date purity, Oystersteel performance',
+    price: '$9,100',
+    accent: 'from-green-400/20 to-emerald-300/10',
+    image: 'https://images.unsplash.com/photo-1516570161787-2fd917215a3d?q=80&w=1600&auto=format&fit=crop',
+  },
+  {
     slug: 'daydate',
     name: 'Day-Date 40',
     desc: '18 ct Everose gold, fluted bezel, President bracelet',
     price: '$41,500',
     accent: 'from-amber-400/20 to-rose-300/10',
     image: 'https://images.unsplash.com/photo-1607647075471-9e457b4f7e38?q=80&w=1600&auto=format&fit=crop',
+  },
+  {
+    slug: 'lady-datejust',
+    name: 'Lady‑Datejust',
+    desc: 'Refined proportions, precious dials',
+    price: '$8,200',
+    accent: 'from-pink-400/20 to-rose-300/10',
+    image: 'https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?q=80&w=1600&auto=format&fit=crop',
+  },
+  {
+    slug: 'datejust',
+    name: 'Datejust 41',
+    desc: 'Versatile classic with Jubilee bracelet',
+    price: '$9,650',
+    accent: 'from-blue-400/20 to-indigo-300/10',
+    image: 'https://images.unsplash.com/photo-1546868871-7041f2a55e12?q=80&w=1600&auto=format&fit=crop',
   },
   {
     slug: 'gmtmaster',
@@ -27,12 +51,36 @@ const watches = [
     image: 'https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?q=80&w=1600&auto=format&fit=crop',
   },
   {
+    slug: 'gmt-pepsi',
+    name: 'GMT‑Master II “Pepsi”',
+    desc: 'Red/blue Cerachrom bezel, Jubilee bracelet',
+    price: '$15,250',
+    accent: 'from-red-400/20 to-blue-300/10',
+    image: 'https://images.unsplash.com/photo-1490367532201-b9bc1dc483f6?q=80&w=1600&auto=format&fit=crop',
+  },
+  {
+    slug: 'gmt-batman',
+    name: 'GMT‑Master II “Batman”',
+    desc: 'Black/blue bezel, sport travel icon',
+    price: '$15,250',
+    accent: 'from-sky-400/20 to-blue-300/10',
+    image: 'https://images.unsplash.com/photo-1491553895911-0055eca6402d?q=80&w=1600&auto=format&fit=crop',
+  },
+  {
     slug: 'daytona',
     name: 'Cosmograph Daytona',
     desc: 'Oysterflex bracelet, black cerachrom tachymetric scale',
     price: '$17,900',
     accent: 'from-fuchsia-400/20 to-violet-300/10',
     image: 'https://images.unsplash.com/photo-1512453979798-5ea266f8880c?q=80&w=1600&auto=format&fit=crop',
+  },
+  {
+    slug: 'daytona-le-mans',
+    name: 'Daytona Le Mans',
+    desc: 'High-contrast dial, motorsport heritage',
+    price: '$20,900',
+    accent: 'from-purple-400/20 to-rose-300/10',
+    image: 'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=1600&auto=format&fit=crop',
   },
   {
     slug: 'explorer',
@@ -43,12 +91,36 @@ const watches = [
     image: 'https://images.unsplash.com/photo-1516574187841-cb9cc2ca948b?q=80&w=1600&auto=format&fit=crop',
   },
   {
+    slug: 'explorer-ii',
+    name: 'Explorer II',
+    desc: '24‑hour hand for polar exploration',
+    price: '$9,650',
+    accent: 'from-emerald-400/20 to-teal-300/10',
+    image: 'https://images.unsplash.com/photo-1520975916090-3105956dac38?q=80&w=1600&auto=format&fit=crop',
+  },
+  {
     slug: 'yachtmaster',
     name: 'Yacht-Master',
     desc: 'Regatta-ready elegance in precious metals',
     price: '$12,500',
     accent: 'from-sky-400/20 to-cyan-300/10',
     image: 'https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=1600&auto=format&fit=crop',
+  },
+  {
+    slug: 'yachtmaster-ii',
+    name: 'Yacht‑Master II',
+    desc: 'Programmable regatta countdown',
+    price: '$18,750',
+    accent: 'from-cyan-400/20 to-indigo-300/10',
+    image: 'https://images.unsplash.com/photo-1475189778702-5ec9941484ae?q=80&w=1600&auto=format&fit=crop',
+  },
+  {
+    slug: 'skydweller',
+    name: 'Sky‑Dweller',
+    desc: 'Dual‑time annual calendar sophistication',
+    price: '$15,650',
+    accent: 'from-indigo-400/20 to-cyan-300/10',
+    image: 'https://images.unsplash.com/photo-1524805444758-089113d48a6d?q=80&w=1600&auto=format&fit=crop',
   },
   {
     slug: 'oysterperpetual',
@@ -59,12 +131,52 @@ const watches = [
     image: 'https://images.unsplash.com/photo-1737479212469-abd4d0edb21d?ixid=M3w3OTkxMTl8MHwxfHNlYXJjaHwxfHxPeXN0ZXIlMjBQZXJwZXR1YWx8ZW58MHwwfHx8MTc2MzY4Mjg1Nnww&ixlib=rb-4.1.0&w=1600&auto=format&fit=crop&q=80',
   },
   {
+    slug: 'airking',
+    name: 'Air‑King',
+    desc: 'Aviation‑inspired dial, bold numerals',
+    price: '$7,700',
+    accent: 'from-lime-400/20 to-green-300/10',
+    image: 'https://images.unsplash.com/photo-1507676184212-d03ab07a01bf?q=80&w=1600&auto=format&fit=crop',
+  },
+  {
+    slug: 'milgauss',
+    name: 'Milgauss',
+    desc: 'Antimagnetic ingenuity, lightning bolt seconds',
+    price: '$8,300',
+    accent: 'from-teal-400/20 to-emerald-300/10',
+    image: 'https://images.unsplash.com/photo-1511367461989-f85a21fda167?q=80&w=1600&auto=format&fit=crop',
+  },
+  {
     slug: 'seadweller',
     name: 'Sea‑Dweller',
     desc: 'Deep-sea engineering, helium escape valve',
     price: '$13,250',
     accent: 'from-teal-400/20 to-blue-300/10',
     image: 'https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=1600&auto=format&fit=crop',
+  },
+  {
+    slug: 'deepsea',
+    name: 'Rolex Deepsea',
+    desc: 'Extreme depth rating with Ringlock System',
+    price: '$14,500',
+    accent: 'from-blue-400/20 to-indigo-300/10',
+    image: 'https://images.unsplash.com/photo-1542051841857-5f90071e7989?q=80&w=1600&auto=format&fit=crop',
+  },
+  {
+    slug: 'pearlmaster',
+    name: 'Pearlmaster',
+    desc: 'High jewelry expression of the Datejust',
+    price: '$54,000',
+    accent: 'from-amber-400/20 to-yellow-300/10',
+    image: 'https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?q=80&w=1600&auto=format&fit=crop',
+  },
+  {
+    slug: 'perpetual-1908',
+    name: 'Perpetual 1908',
+    desc: 'Dress watch elegance, slim profile',
+    price: '$22,000',
+    accent: 'from-emerald-400/20 to-lime-300/10',
+    image: 'https://images.unsplash.com/photo-1522199710521-72d69614c702?q=80&w=1600&auto=format&fit=crop',
   },
 ]
 
@@ -83,7 +195,7 @@ export default function Collections() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 sm:gap-6">
           {watches.map((w, i) => (
             <motion.div
-              key={w.name}
+              key={w.slug}
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
